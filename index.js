@@ -22,7 +22,7 @@ const openai = new OpenAI({
 });
 
 // ✅ Endpoint to handle search
-app.post('/ask', async (req, res) => {
+app.post('/ASK', async (req, res) => {
   const { prompt } = req.body;
 
   try {
