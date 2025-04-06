@@ -8,7 +8,7 @@ const port = 3000;
 
 // ✅ CORS Setup to allow React frontend
 app.use(cors({
-  origin: 'http://localhost:5173', // Your React frontend URL
+  origin: 'https://ajay007.netlify.app/', // Your React frontend URL
   methods: ['POST', 'GET'],
   credentials: true
 }));
